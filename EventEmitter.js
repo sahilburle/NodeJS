@@ -1,3 +1,5 @@
+//EventEmitter is a module that facilitates communication/interaction between objects in Node.
+
 var events = require('events');
 
 var util = require('util');
