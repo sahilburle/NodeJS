@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "description": "Basic codes of Node JS",
+  "version": "1.0.0",
+  "main": "BasicRouting.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilburle/NodeJS.git"
+  },
+  "keywords": [
+    "fun",
+    "ninjas"
+  ],
+  "author": "Sahil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilburle/NodeJS/issues"
+  },
+  "homepage": "https://github.com/sahilburle/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
