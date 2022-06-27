@@ -38,7 +38,12 @@ The res object represents the HTTP response that an Express app sends when it ge
 
         res.writeHead(200, {'Content-Type': 'text/html'});
         fs.createReadStream(__dirname + '/404.html').pipe(res);
-    }   
+    }
+    
+    /*
+    Content-Type in the response is the header we can set to inform how client would interpret the data from the server.
+    For example, if you are sending down an HTML file to the client, you should set the Content-Type to text/html
+    */
     
 });
 
