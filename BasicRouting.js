@@ -1,11 +1,18 @@
+// Routing refers to how an application's endpoints (URIs) respond to client requests.
+
 var http = require('http');
 var fs = require('fs');
-
-// var myWriteStream = fs.createWriteStream(__dirname + '/streamrite.txt');
-// myReadStream.pipe(myWriteStream);
-
+/*
+createServer() method turns your computer into an HTTP server.
+The http.createServer() method creates an HTTP Server object.
+The HTTP Server object can listen to ports on your computer and execute a function
+*/
 var server = http.createServer(function(req, res){
-
+/*
+Both req and res are made available to us by the Express framework.
+The req object represents the HTTP request and has properties for the request query string, parameters, body, and HTTP headers.
+The res object represents the HTTP response that an Express app sends when it gets an HTTP request.
+*/
     console.log('request was made: ' + req.url);
 
     if(req.url === '/home' || req.url === '/'){
