@@ -1,6 +1,10 @@
 var expres = require('express');
 var app = expres();
-
+/*
+View engines are useful for rendering web pages.
+There are many view engines like Mustache, Handlebars, EJS, etc but the most popular EJS which simply stands for Embedded JavaScript.
+It is a simple templating language/engine that lets its user generate HTML with plain javascript
+*/
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res){
@@ -18,9 +22,5 @@ app.get('/profile/:name', function(req, res){
     }
     res.render('profile', {person: req.params.name, data: data});
 });
-
-// app.get('/profile/:name', function(req, res){
-//     res.send('you request to see profile of ' + req.params.name);
-// });
 
 app.listen(3000);
