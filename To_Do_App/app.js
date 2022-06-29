@@ -6,4 +6,7 @@ var app = express();
 app.set('view engine', 'ejs');
 
 //static files
-app.set('view engine')
+app.use(express.static('./public'))
+
+//listen to port
+app.listen(3000)
