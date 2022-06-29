@@ -12,9 +12,9 @@ app.get('/', function(req, res){
     res.render('index');
 });
 
-// app.get('/contact', function(req, res){
-//     res.render('contact');
-// });
+app.get('/contact', function(req, res){
+    res.render('contact');
+});
 
 app.post('/contact', urlencodedParser, function(req, res){
     console.log(req.body);
