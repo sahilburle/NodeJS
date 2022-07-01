@@ -20,3 +20,7 @@ Basic codes of Node JS
 *) Partials are basically just views that are designed to be used from within other views.
     They are particularly useful for reusing the same markup between different views,
     layouts, and even other partials. <%- partial('./partials/navbar.ejs') %>
+
+*) Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js.
+    It manages relationships between data, provides schema validation, and is used to translate
+    between objects in code and the representation of those objects in MongoDB
