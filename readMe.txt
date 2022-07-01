@@ -24,3 +24,6 @@ Basic codes of Node JS
 *) Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js.
     It manages relationships between data, provides schema validation, and is used to translate
     between objects in code and the representation of those objects in MongoDB
+
+*) Body-parser is the Node. js body parsing middleware.
+    It is responsible for parsing the incoming request bodies in a middleware before you handle it.
