@@ -22,6 +22,7 @@ module.exports = function(app){
         data = data.filter(function(todo){
             return todo.item.replace(/ /g, '-') !== req.params.item;
         });
+        
     });
     
 };
